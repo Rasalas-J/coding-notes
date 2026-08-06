@@ -1,0 +1,14 @@
+{
+  "notes": [
+    {
+      "id": "welcome-20260806",
+      "title": "欢迎使用编程笔记",
+      "type": "note",
+      "category": "使用指南",
+      "topic": "功能介绍",
+      "content": "# 欢迎使用编程笔记\n\n这是一个个人编程学习笔记与项目记录网站。\n\n## 主要功能\n\n- 📝 **创建笔记**：支持 Markdown 格式，可插入代码、图片和文件\n- 📅 **按日期查看**：通过侧边栏按年月筛选笔记\n- 🏷️ **按分类查看**：自定义分类，方便管理不同领域的知识\n- 🚀 **项目记录**：区分学习笔记和项目记录两种类型\n- ✏️ **在线编辑**：随时进入编辑模式修改内容\n- 🔒 **权限控制**：只有管理员可以编辑，其他访客只能查看\n\n## 代码示例\n\n```python\n# Python 示例\ndef fibonacci(n):\n    \"\"\"生成斐波那契数列\"\"\"\n    a, b = 0, 1\n    result = []\n    for _ in range(n):\n        result.append(a)\n        a, b = b, a + b\n    return result\n\nprint(fibonacci(10))\n```\n\n```javascript\n// JavaScript 示例\nconst debounce = (fn, delay) => {\n  let timer;\n  return (...args) => {\n    clearTimeout(timer);\n    timer = setTimeout(() => fn(...args), delay);\n  };\n};\n```\n\n## 开始使用\n\n1. 点击右上角 **「登录」** 按钮\n2. 输入你的 GitHub Personal Access Token\n3. 点击 **「新建」** 创建你的第一条笔记\n4. 在编辑器中可以使用工具栏插入格式、代码、图片等\n\n## 小技巧\n\n- 在编辑器中 **直接粘贴图片** 即可自动上传\n- 也可以 **拖拽图片** 到编辑区域\n- 支持 `Ctrl + S` 快捷保存\n- 支持搜索功能，在顶部搜索框输入关键词即可\n\n---\n\n> 💡 你可以随时删除这条欢迎笔记，开始记录你自己的学习内容！",
+      "createdAt": "2026-08-06T20:40:26+08:00",
+      "updatedAt": "2026-08-06T20:40:26+08:00"
+    }
+  ]
+}
